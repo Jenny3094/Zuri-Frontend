@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+
+}
+
+div {
+    background-color: #EFEAD8;
+    padding-top: 1px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+
+.container {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 45%;
+    line-height: 50px;
+    font-size: 25px;
+    color: #413F42;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #413F42;
+}
+
+
+
+.flex-container>div {
+    background-color: inherit;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+    color: azure;
+
+
+}
+
+
+
+input[type="radio"]:checked {
+    accent-color: #006E7F;
+}
+
+#next {
+    background-color: #006E7F;
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#next:hover {
+    background-color: #1a91a3;
+}
+
+
+#previous {
+    background-color: #006E7F;
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
