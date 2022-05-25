@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Assistant:wght@200;300&family=Chivo&family=Inter&family=Martel+Sans&family=Merriweather+Sans:ital,wght@1,300&family=Open+Sans&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@200;400&family=Quicksand:wght@300;500&family=Roboto+Flex:opsz,wght@8..144,200&family=Rubik:ital,wght@1,300&family=Work+Sans:ital,wght@1,200&display=swap');
+
+table,th, td{
+  border: 1px solid black;
+  cell-spacing:5px;
+  padding:5px;
+  text-align:center;
+  border-collapse:collapse;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'Quicksand', sans-serif;
+  background-color:#C2DED1;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+tr{
+  background-color:#C2DED1;
+}
+th{
+  background-color:#ECE5C7;
+}
+.maths{
+  color: green;
+}
+.eng{
+  color:green;
+}
+#fail{
+  color:#B22727;
+}
+.phy{
+  color:green;
+}
+.chem{
+  color:green;
+}
+.bio{
+  color:green;
+}
