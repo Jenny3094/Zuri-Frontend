@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Assistant:wght@200;300&family=Chivo&family=Inter&family=Martel+Sans&family=Merriweather+Sans:ital,wght@1,300&family=Open+Sans&family=Outfit:wght@300&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+body{
+  background-color: #446A46;
+  color:pink;
+  font-family:'Outfit', sans-serif;
+  line-height: 1.6;
+  font-size: 67px;
+}
+
+h1, article{
+  text-align:center;
+  color: pink;
+}
+  
+.link{
+  text-decoration:none;
+  color: red;
+}
+img{
+ max-width:100%;
+   margin: auto;
+}
+blockquote,p{
+ text-align:center;
+}
+
