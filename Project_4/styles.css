@@ -1,0 +1,39 @@
+body {
+    background: #41534d;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background: #1a1b1a;
+    box-shadow: 5px 5px 8px #353432,
+        -5px -5px 8px black;
+
+}
+
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
