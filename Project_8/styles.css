@@ -308,8 +308,8 @@ a:hover{
     text-decoration: underline;
 }
 
- @media screen and (max-width:375px){
-    .container{
+/*  @media screen and (max-width:375px){
+/*     .container{
     width: 820px;
     padding: 60px;
     background-image: url("images/bg-hero-mobile.svg");
@@ -319,11 +319,11 @@ a:hover{
     .hero-section{
         display: flex;
         flex-direction: column;
-    }
+    } */
 
 
 
-     hero-text {
+/*      hero-text {
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -347,10 +347,10 @@ a:hover{
     }
 
     .hero-text p{
-        font-size:2em;
+        font-size:2em; */
 
 
-    }
+/*     }
     .flex-container{
     padding: 100px;
     margin-bottom: 100px;
@@ -376,3 +376,4 @@ a:hover{
      margin-bottom: 30px;
      }
  }
+ */ */
