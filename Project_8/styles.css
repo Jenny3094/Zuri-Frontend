@@ -263,26 +263,25 @@ margin-top: 80px;
 }
 .circle-icon{
     background-color: hsl(192, 100%, 9%);
-    margin: auto;
+    margin-left:5px;
+    margin-right:5px;
     border-radius: 50%;
     padding: 5px;
     text-align: center;
     border: 1px solid white;
     color:white!important;
 }
+
+.circle-icon:hover{
+color: hsl(322, 100%, 66%)!important;
+border-color: hsl(322, 100%, 66%);
+}
+
 .copyright small{
     color:white;
    position: relative;
    top:100%;
 }
-
-
-/* .huddle{
-    font-size:3em;
-    font-family:'Poppins', sans-serif;
-    font-weight:600;
-
-} */
 
 span{
     color:white;
