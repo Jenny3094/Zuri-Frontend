@@ -1,1 +1,1 @@
-I designed my won website using HTML and CSS
+I designed my own website using HTML and CSS
