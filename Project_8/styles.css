@@ -7,6 +7,7 @@
 
 }
 
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -330,6 +331,7 @@ a:hover {
 }
 
 @media screen and (max-width:375px) {
+
     .container {
         width: 820px;
         padding: 70px;
