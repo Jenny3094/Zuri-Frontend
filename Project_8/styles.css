@@ -12,6 +12,7 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    width: 100%;
 
 
 }
@@ -334,7 +335,7 @@ a:hover {
 
     .container {
         width: 820px;
-        padding: 70px;
+        padding: 100px;
         background-image: url("images/bg-hero-mobile.svg");
 
     }
@@ -342,6 +343,7 @@ a:hover {
     .hero-section {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
 
