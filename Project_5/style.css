@@ -86,11 +86,6 @@ input,select,textarea {
 
 }
 
-#me {
-  width: 350px;
-  border-radius: 15px;
-
-}
 
 #reg-p {
   color: #FAEEE7;
@@ -124,10 +119,10 @@ a {
   padding: 20px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.4fr 1fr;
-  gap: 10px;
+.flex-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   background-color: #FAEEE7;
 }
 
@@ -152,11 +147,9 @@ a {
   color: #FAEEE7;
 }
 
-.image {
+.image img{
   border-radius: 20px;
-  padding: 10px;
-  background-color: #212121;
-  border: 1px solid #FAEEE7;
+  width: 100%;
 
 }
 
@@ -169,7 +162,6 @@ a {
 
 .text {
   padding: 20px;
-  border-radius: 20px;
   font-size: 20px;
   color: #212121;
   background-color: #FAEEE7;
@@ -292,3 +284,6 @@ button:hover {
   margin-right: 4px;
 }
 
+/* Mobile */
+@media screen and (max-width:480px){
+}
