@@ -17,7 +17,7 @@ body {
 
 }
 
-.container {
+.hero-container {
     padding: 40px;
     background-image: url("images/bg-hero-desktop.svg");
     background-color: hsl(193, 100%, 96%);
@@ -333,11 +333,21 @@ a:hover {
 
 @media screen and (max-width:375px) {
 
-    .container {
-        width: 820px;
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .hero-container {
+        width: 100%;
         padding: 100px;
         background-image: url("images/bg-hero-mobile.svg");
-
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .hero-section {
@@ -345,6 +355,15 @@ a:hover {
         flex-direction: column;
         text-align: center;
     }
+
+
+    .hero-text{
+            padding: 20px;
+            /* padding-left: 10px; */
+            margin-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
 
 
 
@@ -385,24 +404,57 @@ a:hover {
 
     .flex-container {
         padding: 100px;
-        margin-bottom: 100px;
+        margin-top:40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    .flex-1 {
+
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px 4px rgb(192 192 192);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
     .flex-2 {
+
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px 4px rgb(192 192 192);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-3 {
 
         margin: 40px auto;
         padding: 50px;
         border-radius: 10px;
         box-shadow: 1px 1px 4px 4px rgb(192 192 192);
-
+        display: flex;
+        flex-direction: column-reverse;
     }
 
+    .flex-text{
+        text-align: center;
+        margin-top: 20px;
+
+
+    }
+    .flex-text h2{
+        font-size:2em;
+    }
+
+
     .footer-text h3 {
-        width: 300px;
+        width: 100%;
     }
 
     .foot-btn {
