@@ -7,7 +7,7 @@ body {
 .chessboard {
     width: 640px;
     height: 640px;
-    margin: auto;
+    margin:auto;
     border: 8px solid rgb(0, 0, 0);
     border-radius: 4px;
     background: #1a1b1a;
@@ -37,3 +37,4 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+
